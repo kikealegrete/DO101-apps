@@ -12,3 +12,11 @@ app.listen(8080, function () {
 app.get('/mars', function(req, res) {
   res.send('Hello Mars!\n');
 });
+
+app.get('/galindo', function(req, res) {
+  res.send('Hello Galindo Gatito\n');
+});
+
+app.get('/pepe', function(req, res) {
+  res.send('Hello Galindo Gatito\n');
+});
